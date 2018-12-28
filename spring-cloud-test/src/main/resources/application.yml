@@ -1,0 +1,9 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: spring-cloud-test
+  profiles:
+    active: @action@
